@@ -187,3 +187,16 @@ table.
 
 SELECT count(*) FROM customers
 ;
+
+
+==========
+15
+
+-----
+
+Write a query that counts the number of orders (in the orders table) shipped to California.
+
+-----
+
+
+SELECT count(*) FROM orders WHERE shipto_state = 'CA';
